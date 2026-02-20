@@ -1,0 +1,7 @@
+framework:
+    cache:
+      # Define a default Memcached provider using a DSN
+      default_memcached_provider: 'memcached://localhost:11211'
+
+      # Configure the 'app' cache pool to use the Memcached adapter
+      app: cache.adapter.memcached

@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    padding: 20px;
+}
+
+#order .invalid-feedback {
+    color: #842029;
+    background-color: #f8d7da;
+    position: relative;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #f5c2c7;
+    border-radius: .25rem;
+}

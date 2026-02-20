@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Пожалуйста, авторизуйтесь!{% endblock %}
+
+{% block body %}
+<div class="row justify-content-center">
+    <div id="unlogin" class="col-3 alert alert-danger text-center" role="alert">
+        Пожалуйста, <a href="{{ path('app_login') }}">авторизуйтесь</a>!
+    </div>
+</div>
+{% endblock %}

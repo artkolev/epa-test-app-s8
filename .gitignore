@@ -1,0 +1,38 @@
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
+
+*.patch
+*.diff
+*.orig
+*.rej
+*.cache
+
+# Файлы IDE
+.idea
+.vscode
+.settings
+.buildpath
+nbproject
+*.code-workspace
+
+!.gitignore
+!.chef
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer itself is not needed
+composer.phar
